@@ -1,0 +1,146 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+
+a{  
+  padding: 8px;
+  background-color: white;
+  color: #242525;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 1.5s ease;
+}
+a:hover{
+  background-color: skyblue;
+}
+button{
+  color: white;  border-radius: 5px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  transition: 1.5s ease;
+}
+button:hover{
+  background-color: #9dc6f7;
+  color: #292924;
+}
+/* header */
+
+header{
+  background-color: #26292E;
+  width: 100%;
+}
+.logo{
+  color:whitesmoke;
+  font-family: "Butterfly kids";
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+
+
+/* end header */
+/* main */
+
+.section1{
+  background-image: radial-gradient(at top, #EE8CA2,#E7718B);
+}
+.block1{
+  width: 45%;
+  font-size: x-small;
+}
+.block2{
+  width: 35%;
+  /* border: 1px solid green; */
+}
+
+
+.section2{
+  background-color: #F4F4F6;
+  border-bottom: 5px solid #f7e4e8;
+}
+
+.block3, .block4, .block5{
+  width: 250px;
+  font-size: smaller;
+  /* border: 1px solid orangered; */
+}
+.block3{
+  margin-left: 30px
+}
+.section3{
+  height: 340px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.block6{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 300px;
+  height: 240px;
+}
+
+.products{
+  width: 120px;
+  height: 64px;
+  background-color: #393a3a;
+  color: white;
+  border: 3px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  line-height: 85px;
+}
+
+
+aside{
+  width: 350px; 
+}
+
+/* end main */
+
+/* footer */
+footer{
+  background-color: #26292E;
+  color: white;
+}
+
+/* end footer */
+
+/* media queries */
+
+@media(max-width: 992px){
+
+}
+@media(max-width: 768px){
+
+}
+@media(max-width: 576px){
+  .top-nav{
+    display:none;
+  }
+  aside{
+    display:none;
+  }
+  .logo{
+    text-align: center;
+  }
+}
