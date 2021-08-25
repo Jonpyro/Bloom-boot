@@ -97,8 +97,6 @@ header{
 }
 
 .product{
-  width: 120px;
-  height: 64px;
   background-color: #393a3a;
   color: white;
   border: 3px solid gray;
@@ -135,7 +133,7 @@ footer{
     justify-content: space-around;
   }
 }
-@media(max-width: 769px){
+@media(max-width: 768px){
   header{
     padding:20px 0;
   }
@@ -146,6 +144,9 @@ footer{
   }
   .landing-img{
     padding-top: 55px;
+  }
+  .section3{
+    margin: 15px 0;
   }
   .product{
     width: 180px;
@@ -168,4 +169,12 @@ footer{
   }
   .block3, .block4, .block5{
     text-align: justify;
+  } 
+    .product{
+      width: 120px;
+      height: 64px;
+    }
+    .icon-search{
+      font-size: 15px;
+    }
 }
